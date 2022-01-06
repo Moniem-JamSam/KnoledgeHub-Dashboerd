@@ -159,12 +159,12 @@ const UserProfile = props => {
                 </div>
                 <div className="mb-3">
                   <AvField
-                    name="Country"
-                    label="Country"
+                    name="Password"
+                    label="Password"
                     value={name || ''}
                     className="form-control"
                     placeholder="Enter your Country"
-                    type="text"
+                    type="Password"
                     required
                   />
                   <AvField name="idx" value={idx || ''} type="hidden" />
