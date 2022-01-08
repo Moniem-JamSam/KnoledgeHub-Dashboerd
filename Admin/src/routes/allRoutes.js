@@ -41,6 +41,8 @@ import TwostepVerification2 from "../pages/AuthenticationInner/auth-two-step-ver
 
 // Dashboard
 import Dashboard from "../pages/Dashboard/index"
+import Product from "../pages/Dashboard/Product"
+import UploadPage from "../pages/Dashboard/UploadPage"
 // Charts
 import ChartApex from "../pages/Charts/Apexcharts"
 import ChartistChart from "../pages/Charts/ChartistChart"
@@ -112,12 +114,10 @@ import Pages500 from "../pages/Utility/pages-500"
 import PagesGallery from "../pages/Utility/PagesGallery";
 import PagesDirectory from "../pages/Utility/PagesDirectory";
 
-//moniem peace 
-
-import Moniem from "../pages/MoniemTest/Moniem"
-
 const userRoutes = [
   { path: "/dashboard", component: Dashboard },
+  { path: "/Product", component: Product },
+  { path: "/UploadPage", component: UploadPage },
 
   // //calendar
   { path: "/calendar", component: Calendar },
@@ -201,7 +201,6 @@ const userRoutes = [
   { path: "/pages-faqs", component: PagesFaqs },
   { path: "/pages-pricing", component: PagesPricing },
   { path: "/pages-gallery", component: PagesGallery },
-  
 
   // this route should be at the end of all other routes
   { path: "/", exact: true, component: () => <Redirect to="/dashboard" /> },
@@ -234,9 +233,6 @@ const authRoutes = [
   { path: "/auth-email-verification-2", component: EmailVerification2 },
   { path: "/auth-two-step-verification", component: TwostepVerification },
   { path: "/auth-two-step-verification-2", component: TwostepVerification2 },
-
-  //MONIEM tEST
-  { path: "/Moniem", component: Moniem },
 ]
 
 export { userRoutes, authRoutes }

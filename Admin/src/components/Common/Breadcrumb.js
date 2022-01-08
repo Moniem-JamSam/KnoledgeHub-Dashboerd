@@ -38,14 +38,14 @@ const Breadcrumb = props => {
             }}
           >
             <DropdownToggle color="primary" className="btn btn-primary dropdown-toggle waves-effect waves-light">
-              <i className="mdi mdi-cog me-2"></i> Settings
+               Assest <i className="mdi mdi-help"></i>
             </DropdownToggle>
             <DropdownMenu right>
-              <DropdownItem tag="a" href="#">Action</DropdownItem>
-              <DropdownItem tag="a" href="#">Another action</DropdownItem>
-              <DropdownItem tag="a" href="#">Something else here</DropdownItem>
+              <DropdownItem tag="a" href="#">Add Product</DropdownItem>
+              <DropdownItem tag="a" href="#">Edit Product</DropdownItem>
+              <DropdownItem tag="a" href="#">Remove Product</DropdownItem>
               <DropdownItem divider />
-              <DropdownItem tag="a" href="#">Separated link</DropdownItem>
+              <DropdownItem tag="a" href="#">Have a Problem ?</DropdownItem>
             </DropdownMenu>
           </Dropdown>
         </div>

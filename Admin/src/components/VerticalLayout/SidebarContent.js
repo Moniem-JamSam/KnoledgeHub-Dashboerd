@@ -102,13 +102,19 @@ const SidebarContent = props => {
             </li>
 
             <li>
-              <Link to="/calendar" className=" waves-effect">
-                <i className="ti-calendar"></i>
+              <Link to="/Product" className=" waves-effect">
+                <i className="mdi mdi-bookshelf"></i>
                 <span>{props.t("Products")}</span>
               </Link>
             </li>
+            <li>
+              <Link to="/UploadPage" className=" waves-effect">
+                <i className="mdi mdi-cloud-upload"></i>
+                <span>{props.t("Upload Products")}</span>
+              </Link>
+            </li>
 
-            {/* <li>
+             {/* <li>
               <Link to="/#" className="has-arrow waves-effect">
                 <i className="ti-email"></i>
                 <span>{props.t("Email")}</span>
@@ -278,7 +284,8 @@ const SidebarContent = props => {
                   <Link to="/tables-editable">{props.t("Editable Table")}</Link>
                 </li>
               </ul>
-            </li>
+            </li> 
+           
             <li>
               <Link to="/#" className="has-arrow waves-effect">
                 <i className="ti-face-smile"></i>
@@ -307,7 +314,7 @@ const SidebarContent = props => {
                 </li>
               </ul>
             </li>
-
+         
             <li>
               <Link to="/#">
                 <i className="ti-location-pin"></i>
@@ -452,7 +459,7 @@ const SidebarContent = props => {
                   </ul>
                 </li>
               </ul>
-            </li> */}
+            </li>  */}
           </ul>
         </div>
       </SimpleBar>
